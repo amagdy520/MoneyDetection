@@ -256,6 +256,21 @@ public class MainActivity extends AppCompatActivity {
                 sb.append(c);
             }
         }
-        return sb.toString();
+        String test = sb.toString();
+        switch(test){
+            case "1":
+                return test;
+            case "10":
+                return test;
+            case "50":
+                return test;
+            case "100":
+                return test;
+            case "500":
+                return test;
+            default:
+                return "Can't Recognition";
+        }
     }
+
 }
